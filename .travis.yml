@@ -1,0 +1,15 @@
+language: python
+sudo: required
+dist: trusty
+python:
+  - "2.7.12"
+addons:
+env:
+before_install:
+install:
+before_script:
+script:
+after_script:
+notifications:
+  email:
+    - mehty.musaev@gmail.com
